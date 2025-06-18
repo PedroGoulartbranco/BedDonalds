@@ -87,3 +87,32 @@ body, header {
     align-items: center;
     justify-content: center;
 }
+
+.foto_ham_principal {
+    margin-left: 110px;
+    margin-top: 40px;
+}
+
+#hamburguer_gremio {
+    width: 219px;
+    height: 217px;
+}
+
+.centralizar_legendas {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 110px;
+    font-size: 25px;
+}
+
+.foto_ham_principal:hover {
+    width: 250px;
+    height: 248px;
+}
+
+#hamburguer_gremio:hover {
+    width: 250px;
+    height: 248px;
+}
