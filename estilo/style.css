@@ -91,6 +91,7 @@ body, header {
 .foto_ham_principal {
     margin-left: 110px;
     margin-top: 40px;
+    border-radius: 20px;
 }
 
 #hamburguer_gremio {
