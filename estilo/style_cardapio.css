@@ -1,0 +1,9 @@
+.opcoes_topo_linha {
+    display: flex;
+}
+
+.opcoes_topo {
+    text-align: center;
+    flex: 1;
+    align-items: flex-end;
+}

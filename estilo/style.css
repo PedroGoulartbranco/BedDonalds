@@ -116,3 +116,7 @@ body, header {
     width: 250px;
     height: 248px;
 }
+a {
+    text-decoration: none;
+    color: white;
+}
