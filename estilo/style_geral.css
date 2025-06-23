@@ -89,15 +89,16 @@ hr {
 }
 
 .classe_id {
-    border-radius: 10px;
+    border-radius: 60px;
     background-color: rgb(206, 203, 203);
-    height: 5vh;
+    height: 4vh;
     width: 40vh;
 }
 
 #div-cadastro {
     align-items: center;
     justify-items: center;
+    margin-top: 8vh;
 }
 
 #div-quebrar-input-cadastro {
@@ -105,3 +106,18 @@ hr {
     flex-direction: column;
 }
 
+#botao-cadastro {
+    background-color: rgb(253, 229, 49);
+    border-radius: 60px;
+    height: 4vh;
+    font-size: 30px;
+}
+
+input::placeholder {
+    font-size: 2vh;
+    text-align: center;
+}
+
+input {
+    margin-bottom: 2vh;
+}
