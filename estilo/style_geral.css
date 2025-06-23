@@ -17,11 +17,11 @@ body, header {
 }
 
 #escrever_por_cima {
-
     color: white;
     width: 100%;
     background: url('/imagens/foto_principal.png');
     background-size: cover;
+    height: 25vh;
 }
 
 #titulo_principal {
@@ -32,15 +32,16 @@ body, header {
 }
 #escolha_opcoes {
     display: flex;
+    width: 100%;
+    height: 60%;
 }
 
 .opcao_principal {
-    margin-left: 70px;
-}
-
-.imagem_b {
-    margin-top: 5px;
-    margin-left: 10px;
+    align-items: center;
+    display: flex;    
+    justify-content: center;
+    bottom: 0;
+    gap: 20px;
 }
 
 #botao_delivery_principal {
@@ -67,3 +68,40 @@ a {
     text-decoration: none;
     color: white;
 }
+
+#imagem-icon-b {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#titulo-cadastro {
+    text-align: center;
+    font-size: 10vh;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+hr {
+    margin-top: 0;
+}
+
+.classe_id {
+    border-radius: 10px;
+    background-color: rgb(206, 203, 203);
+    height: 5vh;
+    width: 40vh;
+}
+
+#div-cadastro {
+    align-items: center;
+    justify-items: center;
+}
+
+#div-quebrar-input-cadastro {
+    display: flex;
+    flex-direction: column;
+}
+
