@@ -18,8 +18,11 @@ body, header {
 }
 
 #escrever_por_cima {
-    position: absolute;
+
     color: white;
+    width: 100%;
+    background: url('/imagens/foto_principal.png');
+    background-size: cover;
 }
 
 #titulo_principal {
@@ -73,7 +76,7 @@ body, header {
 #linha_pagina_principal {
     border: none;
     border-bottom: 2px solid black;
-    width: 1100px;
+    width: 80%;
     margin-left: 0;
     margin-top: 20px;
 }
@@ -92,11 +95,16 @@ body, header {
     margin-left: 110px;
     margin-top: 40px;
     border-radius: 20px;
+    height: 70%;
+    width: 70%;
 }
 
 #hamburguer_gremio {
-    width: 219px;
-    height: 217px;
+    margin-left: 110px;
+    margin-top: 40px;
+    border-radius: 20px;
+    height: 70%;
+    width: 70%;
 }
 
 .centralizar_legendas {
@@ -109,14 +117,14 @@ body, header {
 }
 
 .foto_ham_principal:hover {
-    width: 250px;
-    height: 248px;
+    height: 73%;
+    width: 73%;
+}
+#hamburguer_gremio:hover {
+    height: 73%;
+    width: 73%;
 }
 
-#hamburguer_gremio:hover {
-    width: 250px;
-    height: 248px;
-}
 a {
     text-decoration: none;
     color: white;
