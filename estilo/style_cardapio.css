@@ -7,3 +7,25 @@
     flex: 1;
     align-items: flex-end;
 }
+.titulos_cardapios {
+    font-size: 4vh;
+    margin-left: 3vh;
+}
+
+#titulo_salgados {
+    margin-top: 2vh;
+}
+
+.linha_cardapio {
+    width: 160vh;
+}
+
+.primeira_foto_cardapio {
+    margin-left: 7vh;
+}
+
+.forma_comida_cardapio {
+    margin-right: 10vh;
+    height: 20vh;
+    width: 20vh;
+}

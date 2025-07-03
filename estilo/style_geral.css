@@ -16,10 +16,10 @@ body, header {
     font-family: 'Inter';
 }
 
-#escrever_por_cima {
+.escrever_por_cima {
     color: white;
     width: 100%;
-    background: url('/imagens/foto_principal.png');
+    background: url('/imagens/foto_menus.png');
     background-size: cover;
     height: 25vh;
 }
@@ -120,4 +120,17 @@ input::placeholder {
 
 input {
     margin-bottom: 2vh;
+}
+
+.opcoes_topo {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 3vh;
+    margin-top: 14.5vh;
+    margin-left: 3vh;
+}
+
+.alinhar_imagens_cardapio {
+    display: flex;
 }
