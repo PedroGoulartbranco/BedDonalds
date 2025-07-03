@@ -16,6 +16,10 @@ body, header {
     font-family: 'Inter';
 }
 
+body {
+    background-color: rgb(236, 226, 226);
+}
+
 .escrever_por_cima {
     color: white;
     width: 100%;
