@@ -23,7 +23,7 @@ body {
 .escrever_por_cima {
     color: white;
     width: 100%;
-    background: url('/imagens/foto_menus.png');
+    background: url('/imagens/foto_principal.png');
     background-size: cover;
     height: 25vh;
 }

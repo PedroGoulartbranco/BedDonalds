@@ -1,0 +1,14 @@
+.caixa_de_digitar_cadastro {
+    width: 80vh;
+}
+
+.centralizar_cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao_cadastro {
+    width: 80vh;
+    font-size: 3vh;
+}
