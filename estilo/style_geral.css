@@ -138,3 +138,7 @@ input {
 .alinhar_imagens_cardapio {
     display: flex;
 }
+
+.borda_amarela {
+    border-bottom: 3px solid yellow;
+}
